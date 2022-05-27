@@ -60,7 +60,7 @@ public class pageLoadingTime {
 			
 			System.out.println("Opening the Website URL.");
 			
-			//Checking that the Document Ready State is complete
+			//Checking that the Document Ready State is Complete
 			JavascriptExecutor js = (JavascriptExecutor)driver;
 			String state = js.executeScript("return document.readyState").toString();
 			
